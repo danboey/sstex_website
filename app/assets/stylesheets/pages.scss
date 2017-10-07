@@ -12,6 +12,14 @@ html,body {
 	background-color: rgb(244, 244, 244);
 }
 
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: 900;
+}
+
 
 /* ===== NAVBAR ===== */
 
@@ -67,12 +75,19 @@ html,body {
 
 /* VALUE PROPOSITION */
 
-.icon-img {
-	background-color: #1e73be;
-}
-
 .img-box {
 	margin-right: auto;
 	margin-left: auto;
 	width:50%;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: #1e73be;
+}
+
+.icon-row {
+	margin-bottom: 60px;
+}
+
+.value-bottom {
+	margin-bottom: 20px;
 }
