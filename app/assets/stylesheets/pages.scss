@@ -78,6 +78,7 @@ html,body {
 .img-box {
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 20px;
 	width:50%;
 	border-radius: 50%;
 	padding: 20px;
@@ -90,4 +91,38 @@ html,body {
 
 .value-bottom {
 	margin-bottom: 20px;
+}
+
+.val-desc {
+	margin-bottom: 20px;
+}
+
+
+/* PRODUCTS */
+
+.prod-img {
+	max-height: 165px;
+	max-width: 165px;
+}
+
+.prod-links {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-weight: 600;
+}
+
+
+/* CONTACT */
+
+.contact-box {
+	margin-bottom: 50px;
+}
+
+.contact-text {
+	font-size: 18px;
+	color: #ff843a;
+}
+
+.contact-icon {
+	margin-bottom: 15px;
 }
