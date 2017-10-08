@@ -176,3 +176,85 @@ html,body {
 	padding-top: 10px;
 	font-size: 12px;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {
+
+  .img-box {
+  	width: 30%;
+  }
+
+  .icon-box {
+  	margin-bottom: 50px;
+  }
+
+}
+
+
+@media only screen and (max-width: 993px) {
+
+  .contact-icon {
+  	margin-top: 40px;
+  }
+
+}
+
+
+@media only screen and (max-width: 510px) {
+
+  .icon-row {
+  	margin-bottom: 30px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+  .carousel-caption h3 {
+    font-size: 27px;
+	}
+
+  .carousel-caption p {
+    font-size: 25px;
+	}
+
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  .carousel-caption h3 {
+    font-size: 20px;
+	}
+
+  .carousel-caption p {
+    font-size: 18px;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .carousel-caption h3 {
+    font-size: 17px;
+	}
+
+  .carousel-caption p {
+    font-size: 17px;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .carousel-caption {
+    top: 60%;
+	}
+
+}
