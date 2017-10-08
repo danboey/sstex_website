@@ -1,6 +1,6 @@
-// $(document).ready(function(){
-//    var height = $(window).height();  //getting windows height
-//    console.log("height: ");
-//    console.log(height);
-//    jQuery('#myCarousel').css('height',height+'px');   //and setting height of carousel
-// });
+$(document).ready(function(){
+	// stop the carousel from pausing when mouse hovers over the images
+	$('.carousel').carousel({
+	    pause: "false"
+	});
+});
