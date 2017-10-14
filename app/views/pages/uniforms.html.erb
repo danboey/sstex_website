@@ -1,2 +1,15 @@
 <%= render "pages/products/uniforms/uniforms_carousel" %>
 <%= render "pages/products/uniforms/uniforms_main" %>
+
+<script type="text/javascript">
+  function switch_pics() {
+    if($('.uniforms-1').css('display') == 'block') {
+      $('.uniforms-1').hide();
+      $('.uniforms-2').fadeIn(1500);
+    } else if($('.uniforms-2').css('display') == 'block') {
+      $('.uniforms-2').hide();
+      $('.uniforms-1').fadeIn(1500);
+    }
+  }
+  setInterval(switch_pics, 4000); 
+</script>

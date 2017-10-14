@@ -1,2 +1,15 @@
 <%= render "pages/products/woven/woven_carousel" %>
 <%= render "pages/products/woven/woven_main" %>
+
+<script type="text/javascript">
+  function switch_pics() {
+    if($('.woven-1').css('display') == 'block') {
+      $('.woven-1').hide();
+      $('.woven-2').fadeIn(1500);
+    } else if($('.woven-2').css('display') == 'block') {
+      $('.woven-2').hide();
+      $('.woven-1').fadeIn(1500);
+    }
+  }
+  setInterval(switch_pics, 4000); 
+</script>
