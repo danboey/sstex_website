@@ -9,14 +9,23 @@ $(document).ready(function(){
     function switch_pics() {
     	console.log("In the function");
       if($('.children').css('display') == 'block') {
+      	console.log('Hiding children');
+      	console.log('Display children: ' + $('.children').css('display'));
         $('.children').hide();
+      	console.log('Display children after: ' + $('.children').css('display'));
         $('.ladies').fadeIn(1500);
       } else if($('.ladies').css('display') == 'block') {
+      	console.log('Hiding ladies');
+      	console.log('Display ladies: ' + $('.ladies').css('display'));
         $('.ladies').hide();
         $('.mens').fadeIn(1500);
+      	console.log('Display ladies after: ' + $('.ladies').css('display'));
       } else {
+      	console.log('Hiding mens');
+      	console.log('Display mens: ' + $('.mens').css('display'));
         $('.mens').hide();
         $('.children').fadeIn(1500);
+      	console.log('Display mens after: ' + $('.mens').css('display'));
       }
     }
     setInterval(switch_pics, 4000); 
