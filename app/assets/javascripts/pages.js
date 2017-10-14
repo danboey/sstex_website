@@ -4,7 +4,7 @@ $(document).ready(function(){
 	    pause: "false"
 	});
 
-	if($('.children').length) { 
+	if($('.children').length > 0) { 
 		console.log("Found the container");
     function switch_pics() {
     	console.log("In the function1!!!!");
@@ -32,7 +32,7 @@ $(document).ready(function(){
     setInterval(switch_pics, 4000); 
   }
 
-	if($('.woven-1').length) { 
+	if($('.woven-1').length > 0) { 
 		console.log("Found the container");
     function switch_pics() {
     	console.log("In the function2!!!!");
@@ -47,7 +47,7 @@ $(document).ready(function(){
     setInterval(switch_pics, 4000); 
   }
 
-	if($('.fabrics-textiles-1').length) { 
+	if($('.fabrics-textiles-1').length > 0) { 
 		console.log("Found the container");
     function switch_pics() {
     	console.log("In the function3!!!!");
@@ -62,7 +62,7 @@ $(document).ready(function(){
     setInterval(switch_pics, 4000); 
   }
 
-	if($('.uniforms-1').length) { 
+	if($('.uniforms-1').length > 0) { 
 		console.log("Found the container");
     function switch_pics() {
     	console.log("In the function4!!!!");
