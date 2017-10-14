@@ -184,11 +184,11 @@ html,body {
 @media only screen and (max-width: 992px) {
 
 	p {
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 	.navbar {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
   .img-box {
@@ -198,6 +198,10 @@ html,body {
 
   .icon-box {
   	margin-bottom: 60px;
+  }
+
+  .value-bottom {
+  	text-align: center;
   }
 
 }
