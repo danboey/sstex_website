@@ -181,14 +181,23 @@ html,body {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
+
+	p {
+		font-size: 20px;
+	}
+
+	.navbar {
+		font-size: 15px;
+	}
 
   .img-box {
   	width: 30%;
+  	padding: 25px;
   }
 
   .icon-box {
-  	margin-bottom: 50px;
+  	margin-bottom: 60px;
   }
 
 }
