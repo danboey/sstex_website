@@ -7,7 +7,7 @@ $(document).ready(function(){
 	if($('.children').length) { 
 		console.log("Found the container");
     function switch_pics() {
-    	console.log("In the function!!!!");
+    	console.log("In the function1!!!!");
       console.log('Outside display children: ' + $('.children').css('display'));
       if($('.children').css('display') == "block") {
       	console.log('Hiding children');
@@ -35,7 +35,7 @@ $(document).ready(function(){
 	if($('.woven-1').length) { 
 		console.log("Found the container");
     function switch_pics() {
-    	console.log("In the function");
+    	console.log("In the function2!!!!");
       if($('.woven-1').css('display') == 'block') {
         $('.woven-1').hide();
         $('.woven-2').fadeIn(1500);
@@ -50,7 +50,7 @@ $(document).ready(function(){
 	if($('.fabrics-textiles-1').length) { 
 		console.log("Found the container");
     function switch_pics() {
-    	console.log("In the function");
+    	console.log("In the function3!!!!");
       if($('.fabrics-textiles-1').css('display') == 'block') {
         $('.fabrics-textiles-1').hide();
         $('.fabrics-textiles-2').fadeIn(1500);
@@ -65,7 +65,7 @@ $(document).ready(function(){
 	if($('.uniforms-1').length) { 
 		console.log("Found the container");
     function switch_pics() {
-    	console.log("In the function");
+    	console.log("In the function4!!!!");
       if($('.uniforms-1').css('display') == 'block') {
         $('.uniforms-1').hide();
         $('.uniforms-2').fadeIn(1500);
