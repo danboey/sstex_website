@@ -7,7 +7,7 @@ $(document).ready(function(){
 	if($('.children').length) { 
 		console.log("Found the container");
     function switch_pics() {
-    	console.log("In the function");
+    	console.log("In the function!!!!");
       console.log('Outside display children: ' + $('.children').css('display'));
       if($('.children').css('display') == "block") {
       	console.log('Hiding children');
