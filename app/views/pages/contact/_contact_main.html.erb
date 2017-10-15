@@ -1,6 +1,51 @@
 <div class="container">
 	<div class="row">
-		<div class="col-md-12 service-text knitted-main clients-main">
+		<div class="col-md-12 centre">
+			<h3 class="section-header">Our Offices</h3>
 		</div>
+		<div class="col-md-12 service-text">
+			<p class="centre">We have three main offices. Our aim is to have a strong presence locally to meet our customer's expectations globally.</p>
+		</div>
+		<%= render "pages/contact/uk_office" %>
+		<%= render "pages/contact/malaysia_office" %>
+		<%= render "pages/contact/bangla_office" %>
 	</div>
 </div>
+<%= render "pages/home/contact" %>
+
+<script>
+  function initMap() {
+    var high_road = {lat: 51.5951617, lng: -0.16916870000000017};
+    var bm = {lat: 5.3726473, lng: 100.44602800000007};
+    var bangla = {lat: 23.8741333, lng: 90.38140509999994};
+
+    var uk_map = new google.maps.Map(document.getElementById('uk-map'), {
+      zoom: 17,
+      center: high_road
+    });
+    var malaysia_map = new google.maps.Map(document.getElementById('malaysia-map'), {
+      zoom: 17,
+      center: bm
+    });
+    var bangla_map = new google.maps.Map(document.getElementById('bangla-map'), {
+      zoom: 17,
+      center: bangla
+    });
+
+    var marker = new google.maps.Marker({
+      position: high_road,
+      map: uk_map
+    });
+    var marker = new google.maps.Marker({
+      position: bm,
+      map: malaysia_map
+    });
+    var marker = new google.maps.Marker({
+      position: bangla,
+      map: bangla_map
+    });
+  }
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmbH7U9G937ZUH1uJRnQOFSqII7P5CBno&callback=initMap">
+</script>

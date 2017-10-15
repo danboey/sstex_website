@@ -209,6 +209,7 @@ html,body {
 .clients-main {
 	text-align: center;
 	margin-top: 75px;
+	margin-bottom: 100px;
 }
 
 .clients-logo {
@@ -219,6 +220,43 @@ html,body {
 
 .clients-main-logos {
 	margin-bottom: 50px;
+}
+
+
+
+/* =============================================== */
+/* ================== CONTACT ==================== */
+/* =============================================== */
+
+
+.address {
+	margin-top: 20px;
+	line-height: 14px;
+}
+
+.address-header {
+	margin-top: 0px;
+	line-height: 2em;
+	font-weight: 700;
+	color: #5a5d60;
+}
+
+.address-text {
+	font-size: 16px;
+	color: #5a5d60;
+}
+
+.addres-text p {
+	margin: 0 0 1.78571em 0;
+}
+
+#uk-map, #malaysia-map, #bangla-map {
+  height: 300px;
+  width: 100%;
+}
+
+.address-sections {
+	margin-bottom: 100px;
 }
 
 
@@ -268,6 +306,10 @@ html,body {
 
 	.image-col {
 		margin-bottom: 30px;
+	}
+
+	.address-text {
+		margin-bottom: 40px;
 	}
 
 }
