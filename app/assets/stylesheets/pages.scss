@@ -319,21 +319,21 @@ html,body {
 	/* NAVBAR BREAKPOINT FOR STACKED BURGER MENU */
 	.navbar {
 		font-size: 20px;
-		height: 66px;
+		height: 96px;
 	}
 	.navbar-header {
     float: none;
   }
   .icon-bar {
-  	width: 28px !important;
+  	width: 56px !important;
   }
   .navbar-left,.navbar-right {
     float: none !important;
   }
   .navbar-toggle {
     display: block;
-    height: 50px;
-		width: 50px;
+    height: 80px;
+		width: 80px;
   }
   .navbar-collapse {
     border-top: 1px solid transparent;
@@ -364,7 +364,7 @@ html,body {
     display:block !important;
   }
   .navbar-brand {
-  	height: 55px;
+  	height: 84px;
   }
 
 }
