@@ -317,14 +317,23 @@ html,body {
 	}
 
 	/* NAVBAR BREAKPOINT FOR STACKED BURGER MENU */
+	.navbar {
+		font-size: 20px;
+		height: 66px;
+	}
 	.navbar-header {
     float: none;
+  }
+  .icon-bar {
+  	width: 28px !important;
   }
   .navbar-left,.navbar-right {
     float: none !important;
   }
   .navbar-toggle {
     display: block;
+    height: 50px;
+		width: 50px;
   }
   .navbar-collapse {
     border-top: 1px solid transparent;
@@ -353,6 +362,9 @@ html,body {
   }
   .collapse.in{
     display:block !important;
+  }
+  .navbar-brand {
+  	height: 55px;
   }
 
 }
