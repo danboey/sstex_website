@@ -1,52 +1,54 @@
-<div class="container">
-	<div class="row">
-		<div class="col-md-12 centre">
-			<h3 class="section-header">Our Products</h3>
-		</div>
-		<div class="col-md-12 service-text">
-			<p class="centre">When it comes to garments and textiles SnS Tex are flexible in what we are able to source. We are committed in making your ideas into a reality.</p>
-		</div>
-		<div class="col-md-12">
-			<div class="row centre">
-				<div class="col-md-2 col-md-offset-1">
-					<div class="prod-img-box">
-						<%= link_to root_path do %>
-							<%= image_tag("products/home/white_polo_resized.jpg", class: "prod-img") %>
-						<% end %>
+<div class="grey-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 centre">
+				<h3 class="section-header">Our Products</h3>
+			</div>
+			<div class="col-md-12 service-text">
+				<p class="centre">When it comes to garments and textiles SnS Tex are flexible in what we are able to source. We are committed in making your ideas into a reality.</p>
+			</div>
+			<div class="col-md-12">
+				<div class="row centre">
+					<div class="col-md-2 col-md-offset-1">
+						<div class="prod-img-box">
+							<%= link_to products_knitted_path do %>
+								<%= image_tag("products/home/white_polo_resized.jpg", class: "prod-img") %>
+							<% end %>
+						</div>
+						<h4 class="prod-links"><%= link_to "Knitted", products_knitted_path %></h4>
 					</div>
-					<h4 class="prod-links"><%= link_to "Knitted", "#" %></h4>
-				</div>
-				<div class="col-md-2">
-					<div class="prod-img-box">
-						<%= link_to root_path do %>
-							<%= image_tag("products/home/clothes2_square_resized.jpg", class: "prod-img") %>
-						<% end %>
+					<div class="col-md-2">
+						<div class="prod-img-box">
+							<%= link_to products_woven_path do %>
+								<%= image_tag("products/home/clothes2_square_resized.jpg", class: "prod-img") %>
+							<% end %>
+						</div>
+						<h4 class="prod-links"><%= link_to "Woven", products_woven_path %></h4>
 					</div>
-					<h4 class="prod-links"><%= link_to "Woven", "#" %></h4>
-				</div>
-				<div class="col-md-2">
-					<div class="prod-img-box">
-						<%= link_to root_path do %>
-							<%= image_tag("products/home/textiles_square_resized.jpg", class: "prod-img") %>
-						<% end %>
+					<div class="col-md-2">
+						<div class="prod-img-box">
+							<%= link_to products_fabrics_textiles_path do %>
+								<%= image_tag("products/home/textiles_square_resized.jpg", class: "prod-img") %>
+							<% end %>
+						</div>
+						<h4 class="prod-links"><%= link_to "Fabrics & Textiles", products_fabrics_textiles_path %></h4>
 					</div>
-					<h4 class="prod-links"><%= link_to "Fabrics & Textiles", "#" %></h4>
-				</div>
-				<div class="col-md-2">
-					<div class="prod-img-box">
-						<%= link_to root_path do %>
-							<%= image_tag("products/home/uniforms_single.jpg", class: "prod-img") %>
-						<% end %>
+					<div class="col-md-2">
+						<div class="prod-img-box">
+							<%= link_to products_uniforms_path do %>
+								<%= image_tag("products/home/uniforms_single.jpg", class: "prod-img") %>
+							<% end %>
+						</div>
+						<h4 class="prod-links"><%= link_to "Uniforms", products_uniforms_path %></h4>
 					</div>
-					<h4 class="prod-links"><%= link_to "Uniforms", "#" %></h4>
-				</div>
-				<div class="col-md-2">
-					<div class="prod-img-box">
-						<%= link_to root_path do %>
-							<%= image_tag("products/home/baju_square.jpg", class: "prod-img") %>
-						<% end %>
+					<div class="col-md-2">
+						<div class="prod-img-box">
+							<%= link_to products_traditional_path do %>
+								<%= image_tag("products/home/baju_square.jpg", class: "prod-img") %>
+							<% end %>
+						</div>
+						<h4 class="prod-links"><%= link_to "Traditional", products_traditional_path %></h4>
 					</div>
-					<h4 class="prod-links"><%= link_to "Traditional", "#" %></h4>
 				</div>
 			</div>
 		</div>
